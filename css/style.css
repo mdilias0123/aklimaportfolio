@@ -1,0 +1,762 @@
+/*
+  Theme Name: Name - 
+  Author: Shuvo Dey
+  Support: si7019656@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Raleway:400,500,600,700,800');
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+span,
+a {
+    display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #1d2025;
+    margin-top: 0px;
+}
+h1 {
+    font-weight: 500;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+    margin-bottom: 0px;
+}
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+a {
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+#scrollUp {
+    height: 50px;
+    width: 50px;
+    background: #0d1623;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    transition: .3s;
+    -webkit- transition: .3s;
+}
+#scrollUp:hover {
+    background: #ff214f;
+    box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.36);
+}
+
+/*===========================
+    2. css 
+===========================*/
+
+.header-area {
+    border-top: 5px solid #ff214f;
+}
+.logo {}
+.main-menu {}
+.main-menu ul {}
+.main-menu ul > li {
+    display: inline-block;
+    margin-left: 50px;
+    padding: 50px 0;
+    position: relative;
+}
+.main-menu ul > li > a {
+    color: #212323;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1;
+    transition: .3s;
+    -webkit- transition: .3s;
+}
+.main-menu ul .active a,
+.main-menu ul > li a:hover {
+    color: #ff214f;
+}
+.manu-icon {
+    padding-top: 50px;
+    position: relative;
+}
+.manu-icon a {
+    padding-right: 13px;
+    font-size: 16px;
+    color: #212323;
+    transition: .3s;
+    -webkit- transition: .3s;
+}
+.manu-icon a:hover {
+    color: #ff214f;
+}
+.manu-icon::before {
+    position: absolute;
+    content: '';
+    left: -15px;
+    height: 20px;
+    width: 1px;
+    background: #a1a1a1;
+}
+
+/*===========================
+    3.slider css 
+===========================*/
+
+.slider-area {
+    position: relative;
+}
+.single-slider {
+    height: 100vh;
+    background-size: cover;
+}
+.slider-text h4 {
+    font-size: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+}
+.slider-text h2 {
+    font-size: 66px;
+    color: #ff214f;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+}
+.slider-text p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fefefe;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+.slider-text a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: none;
+    padding: 20px 30px;
+    border: 1px solid #fff;
+    transition: .3s;
+    -webkit- transition: .3s;
+    margin: 0 10px;
+}
+.slider-text a:hover {
+    background: #ff214f;
+    border-color: #ff214f;
+}
+
+/*===========================
+    4.About  css 
+===========================*/
+
+.about-img {
+    position: absolute;
+    top: -100px;
+    border: 0px solid aliceblue;
+    padding: 40px 30px;
+    background: #fff;
+}
+.about-text h3 {
+    font-size: 30px;
+    color: #484848;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+}
+.about-text p {
+    font-size: 14px;
+    color: #373737;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+}
+.about-text p span {
+    font-size: 14px;
+    color: #ff214f;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.progress-area h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #575757;
+    text-transform: uppercase;
+}
+.progress {
+    height: 8px;
+    background: none;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+    border: 1px solid #575757;
+    margin-left: 40%;
+    width: 50%;
+    margin-top: -20px;
+}
+.progress .progress-bar {
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #575757;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+
+/*===========================
+    5. section css 
+===========================*/
+
+.section-title h3 {
+    font-size: 24px;
+    color: #484848;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+.section-title p {
+    font-size: 16px;
+    color: #373737;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+.service-items {
+    padding: 50px 50px;
+    background: #fff;
+    transition: .7s;
+    -webkit- transition: .7s;
+}
+.serive-icon i {
+    font-size: 50px;
+    color: #575757;
+    height: 100px;
+    width: 100px;
+    background: #f9f9f9;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    transition: .7s;
+    -webkit- transition: .7s;
+}
+.service-text {
+    padding-left: 30px;
+}
+.service-text h4 {
+    font-size: 18px;
+    color: #575757;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: .7s;
+    -webkit- transition: .7s;
+}
+.service-text p {
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    line-height: 24px;
+    transition: .7s;
+    -webkit- transition: .7s;
+}
+.service-items:hover {
+    background: #ff214f;
+    color: #fff;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.36);
+}
+.service-items:hover i {
+    color: #ff214f;
+}
+.service-items:hover h4 {
+    color: #fff;
+}
+.service-items:hover p {
+    color: #fff;
+}
+
+/*===========================
+    6. Qualification css 
+===========================*/
+
+.Qualification-title a {
+    font-size: 24px;
+    color: #666;
+    font-weight: 400;
+    padding: 20px 86px;
+    line-height: 1;
+    margin: 0px 15px;
+    background: #f9f9f9;
+    transition: .5s;
+    -webkit- transition: .5s;
+}
+.Qualification-title a:hover {
+    background: #ff214f;
+    color: #fff;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.36);
+}
+.Qualification-tab {
+    padding: 55px 47px;
+    background-color: #f9f9f9;
+    transition: .5s;
+    -webkit- transition: .5s;
+}
+.tab-icon i {
+    font-size: 50px;
+    color: #ff214f;
+    margin-bottom: 20px;
+    transition: .5s;
+    -webkit- transition: .5s;
+}
+.tab-text h4 {
+    font-size: 24px;
+    color: #575757;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    transition: .5s;
+    -webkit- transition: .5s;
+}
+.tab-text h5 {
+    font-size: 18px;
+    color: #575757;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    transition: .5s;
+    -webkit- transition: .5s;
+}
+.tab-text p {
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    transition: .5s;
+    -webkit- transition: .5s;
+}
+.Qualification-tab:hover {
+    background-color: #ff214f;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.36);
+}
+.Qualification-tab:hover .tab-icon i {
+    color: #fff;
+}
+.Qualification-tab:hover .tab-text h4 {
+    color: #fff;
+}
+.Qualification-tab:hover .tab-text h5 {
+    color: #fff;
+}
+.Qualification-tab:hover .tab-text p {
+    color: #fff;
+}
+
+/*===========================
+    7. counter css 
+===========================*/
+
+.counter_box {
+    height: 120px;
+    border-right: 1px solid #fff;
+}
+.counter_box:last-child {
+    border-right: 0px solid #fff;
+}
+.counter_box span {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    padding-bottom: 16px;
+}
+.counter_box h5 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+}
+
+/*===========================
+    8. portfolio css 
+===========================*/
+
+.portfolio-list ul li {
+    padding-bottom: 25px;
+}
+.portfolio-list ul li {
+    font-size: 16px;
+    color: #212323;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.portfolio-list ul .active,
+.portfolio-list ul li:hover {
+    color: #ff214f;
+}
+.portfolio-last img {
+    margin-bottom: 30px;
+}
+.portfolio-all {
+    text-align: right;
+}
+.portfolio-all img {
+    margin-bottom: 40px;
+}
+.portfolio-all a {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    background: #ff214f;
+    padding: 14px 37px;
+    transition: .3s;
+    -webkit- transition: .3s;
+}
+.portfolio-all a:hover {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.36);
+}
+
+/*===========================
+    9.testimonal css 
+===========================*/
+
+.testimonal-content {}
+.client-text p {
+    font-size: 16px;
+    color: #777777;
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.client-text h4 {
+    font-size: 24px;
+    color: #212323;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+.client-text span {
+    font-size: 14px;
+    color: #484848;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+.client-single img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.slick-center img {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*slick arrow*/
+
+.slick-left,
+.slick-right {
+    font-size: 50px;
+    color: #606060;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s;
+    -webkit- transition: .3s;
+}
+.slick-left {
+    left: -40px;
+}
+.slick-right {
+    right: -40px;
+}
+.slick-left:hover,
+.slick-right:hover {
+    color: #ff214f;
+}
+
+/*===========================
+    10. css 
+===========================*/
+
+.blog-iteam {
+    width: 360px;
+    border-radius: 0px;
+    border: none;
+    background-color: #f9f9f9;
+    transition: .5s;
+    -webkit- transition: .5s;
+}
+.blog-iteam:hover {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.36);
+}
+.blog-iteam img {}
+.blog-text {}
+.blog-text h5 {
+    font-size: 24px;
+    color: #606060;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+}
+.blog-text p {
+    font-size: 14px;
+    color: #777777;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 32px;
+}
+.blog-text a {
+    font-size: 18px;
+    color: #212323;
+    font-weight: 500;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+.blog-icon {
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+.blog-icon a {
+    font-size: 16px;
+    color: #212323;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.blog-text a:hover {
+    color: #ff214f;
+}
+.blog-icon a:hover {
+    color: #ff214f;
+}
+
+/*===========================
+    11.contact css 
+===========================*/
+
+.contact-text h4 {
+    font-size: 16px;
+    color: #606060;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+.contact-text .numb {
+    font-size: 24px;
+    color: #ff214f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.contact-text h5 {
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact-text span {
+    color: #484848;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.main-form .text_form {
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 7px 0;
+}
+.main-form .msg-box {
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #e7e7e7;
+}
+.main-form textarea {
+    height: 130px;
+    margin-top: 30px;
+    resize: none;
+}
+.main-form a {
+    font-size: 18px;
+    font-weight: 400;
+    /*    text-align: right;*/
+    color: #fff;
+    background: #ff214f;
+    padding: 12px 35px;
+    transition: .3s;
+    -webkit- transition: .3s;
+    margin-top: 30px;
+}
+.main-form a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.36);
+}
+
+/*===========================
+    12.footer css 
+===========================*/
+
+.footer-manu {}
+.footer-manu ul {}
+.footer-manu ul li {
+    display: inline-block;
+    padding: 50px 17px;
+}
+.footer-manu ul li a {
+    color: #212323;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1;
+    transition: .3s;
+    -webkit- transition: .3s;
+}
+.footer-manu ul .active a,
+.footer-manu ul > li a:hover {
+    color: #ff214f;
+}
+.footer-icon {
+    position: relative;
+    line-height: 1;
+}
+.footer-icon a {
+    padding-right: 20px;
+    font-size: 16px;
+    color: #212323;
+    line-height: 1;
+    transition: .3s;
+    -webkit- transition: .3s;
+}
+.footer-icon a:hover {
+    color: #ff214f;
+}
+.footer-end p {
+    font-size: 18px;
+    color: #777777;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.footer-end p span {
+    font-size: 18px;
+    color: #212323;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
